@@ -56,7 +56,7 @@ export const PROJECTS = [
     name: "Homzy",
     description: "A sleek, responsive real estate platform with intuitive navigation, featuring property listings and interactive functionality for users to add their own properties.",
     image: project3,
-    link: "https://github.com/SarbojitSaha/RealEstate",
+    link: "https://github.com/SarbojitSaha/RealEstate2",
     live:"https://real-estate-ss.pages.dev/"
   },
 
