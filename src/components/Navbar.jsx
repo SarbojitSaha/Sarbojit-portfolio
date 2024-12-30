@@ -3,6 +3,7 @@ import { NAVIGATION_LINKS } from '../constants';
 import { useState } from 'react'
 import { RiMenuFill } from 'react-icons/ri';
 import { RiCloseFill } from 'react-icons/ri';
+import iconpic from '../assets/avatar.jpg';
 
 const Navbar = () => {
     const[menuOpen,setMenuOpen]=useState(false)
@@ -16,9 +17,9 @@ const Navbar = () => {
     <div className='fixed top-0 left-0 w-full z-50'>
         <div className='flex justify-between items-center max-w-6xl mx-auto
         md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg'>
-            <div className='text-white font-semibold text-xl uppercase'>
-                <a href='/'>
-                    Sarbojit Saha
+            <div className='flex items-center  text-white font-semibold text-xl uppercase'>
+                <a href='/' className='flex items-center space-x-2'>
+                <img src={iconpic} alt="Logo" className="w-8 h-8 rounded-full" /><span> Sarbojit Saha</span>
                 </a>
             </div>
             <div className='hidden md:flex space-x-8'>
