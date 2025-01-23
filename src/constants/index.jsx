@@ -14,6 +14,7 @@ export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -112,6 +113,51 @@ export const SKILLS = [
   },
 ];
 
+export const timelineData = [
+  {
+    date: "February 2019",
+    title: "Class 10th Boards",
+    institution: "Narmada High School",
+    description: "Achieved 91.8% in the West Bengal Board of Secondary Education.",
+  },
+  {
+    date: "2021",
+    title: "Class 12th Boards",
+    institution: "Narmada High School",
+    description: "Achieved 88.8% in the West Bengal Council of Higher Secondary Education.",
+  },
+  {
+    date: "October 2021",
+    title: "Started B.Tech in ECE",
+    institution: "Heritage Institute of Technology",
+    description: "Enrolled in the Electronics and Communication Engineering program.",
+  },
+  {
+    date: "June 2022",
+    title: "Started Exploring Web Development",
+    description: "Began learning web development technologies and frameworks.",
+  },
+  {
+    date: "July 2023",
+    title: "Completed Full Stack Web Development Training",
+    institution: "Udemy",
+    description: "Completed a comprehensive Full Stack Web Development Bootcamp.",
+  },
+  {
+    date: "August 2023",
+    title: "Inter-College Hackathon - Top 30",
+    project: "EduConnect",
+    description:
+      "Participated in an inter-college hackathon and ranked among the top 30 teams. Developed the 'EduConnect' project.",
+  },
+  {
+    date: "June 2024",
+    title: "Web Development Internship",
+    institution: "Ardent Computech Private Limited",
+    description:
+      "Completed an internship focusing on web development. Built the 'MeetUp' project, a video conferencing platform.",
+  },
+];
 
 
 export const CONTACT_CONTENT = {
